@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/haedLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/head"
+            android:scaleType="centerCrop"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:background="#88000000">
+            <TextView
+                android:id="@+id/headTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="头部布局"
+                android:textColor="#FFF"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
